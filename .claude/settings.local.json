@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest solo-system --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git)",
+      "Bash(npm install *)",
+      "Bash(npx prisma *)",
+      "Bash(node *)",
+      "Bash(dir G:\\\\Github\\\\solo-system\\\\node_modules\\\\next\\\\dist\\\\docs *)",
+      "Bash(dir G:\\\\Github\\\\solo-system *)",
+      "Bash(npx tsc *)",
+      "Bash(dir G:\\\\Github\\\\solo-system\\\\node_modules\\\\@prisma\\\\client *)",
+      "Bash(dir G:\\\\Github\\\\solo-system\\\\node_modules\\\\prisma\\\\dist\\\\docs *)",
+      "Bash(dir /s /b \"G:\\\\Github\\\\solo-system\\\\src\")"
+    ]
+  }
+}
